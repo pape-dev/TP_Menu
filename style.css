@@ -1,0 +1,200 @@
+/*   reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body {
+    font-family: arial, helvetica, sans-serif
+}
+ul,li {
+    list-style: none;
+}
+/* fin reset */
+
+#wrapper {
+    margin: 0 auto;
+    width: 960px;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #d5f;
+}
+.clear {
+    clear: both
+}
+h2, h3 {
+    text-align: center;
+    font-size: 22px;
+    padding: 12px 0;
+    margin-bottom: 15px;
+}
+h3 { font-size: 16px;}
+/* les deux premiers h3 sont ferré à gauche */
+.left {
+	text-align:left;
+}
+
+/* mise en forme générique */
+.box-fond{
+    background-color: #ededed; 
+    padding:15px 25px;
+    margin:25px 0;
+}
+
+/*************menu-vertical-un*******************************/
+
+#vertical-1 {
+    width: 200px;
+    background-color: #dd7700;
+    padding:15px;
+    margin:25px 0;
+}
+.vertical-1 a {
+    display: block;
+    color: #fff;
+    margin: 2px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #F90;
+    border: 1px solid #000;
+}
+.vertical-1 a:hover {
+    background-color: #fff;
+    color: #F60;
+}
+
+/**************menu-vertical-deux*************************/
+
+#vertical-2 {
+    width: 200px;
+    background-color:#dd7700;
+    padding:15px;
+    margin:25px 0;
+}
+.vertical-2 li {
+    margin: 2px;
+    padding: 10px 20px;
+    background-color: #F90;
+}
+.vertical-2 a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #000;
+}
+.vertical-2 a:hover {
+    background-color: #fff;
+    color: #F60;
+}
+
+
+/**************inline-un*************************/
+#horizontal-inline-1 {
+    background-color: #dd7700;
+    margin:25px 0;
+    padding-bottom:10px;
+}
+.inline-1 {
+    margin: 0 auto;
+    text-align:center;
+    background-color: #F90;
+    border-top: 1px solid #000;
+    border-bottom: 2px solid #000;
+    line-height:25px;
+}
+.inline-1 li {
+    display:inline; 
+}
+.inline-1 a {
+    color: #fff;
+    margin: 4px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.inline-1 a:hover {
+    color: #F60;
+}
+
+
+/**************inline-deux*************************/
+#horizontal-inline-2 {
+    background-color: #dd7700;
+    margin-top: 60px;
+    padding-bottom:10px;
+}
+.inline-2  {
+	text-align:right;
+	background-color: #F90;
+	border-top: 1px solid #000;
+	border-bottom: 2px solid #000;
+	height:25px;
+}
+.inline-2 li {
+    display:inline;
+}
+.inline-2 a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1px 20px 2px;
+    vertical-align: middle;
+}
+
+.inline-2 a:hover {
+  color: #F60;
+  background-color: #fff;
+}
+
+/*************menu-flottement-un************************************/
+
+#horizontal-flottement-1 {
+    background-color: #dd7700;
+}
+.menu-3 {
+    width: 564px;
+    margin: 0 auto;
+}
+.menu-3 li {
+    float: left;
+}
+.menu-3 a {
+    display: block;
+    color: #fff;
+    margin: 4px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #F90;
+    border: 1px solid #000;
+}
+.menu-3 a:hover {
+    background-color: #fff;
+    color: #F60;
+}
+/********************************************************/
+/*************menu-flottement-deux************************************/
+
+#horizontal-flottement-2 {
+    background-color: #dd7700;
+    margin-top: 60px
+}
+.menu-4 {
+    width: 568px;
+    margin: 0 auto;
+}
+.menu-4 li {
+    margin: 4px;
+    background-color: #F90;
+    display: block;
+    float: left;
+    padding: 10px 20px;
+}
+.menu-4 a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #000;
+}
+.menu-4 a:hover {
+    background-color: #fff;
+    color: #F60;
+}
